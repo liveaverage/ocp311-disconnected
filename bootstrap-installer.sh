@@ -1,6 +1,6 @@
 #!/bin/bash
                                                                                                               
-export DIR_RPM=/var/www/html
+export DIR_RPM=/var/www/html/repos
 
 subscription-manager repos --disable="*"
 subscription-manager repos --enable="rhel-7-server-rpms" \
